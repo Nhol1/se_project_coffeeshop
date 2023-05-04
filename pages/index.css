@@ -183,3 +183,9 @@
   flex-direction: column;
   align-content: space-between;
 }
+
+.recipes__video-caption {
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+}
