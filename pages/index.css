@@ -13,6 +13,7 @@
   max-height: 800px;
   position: relative;
   box-sizing: border-box;
+  flex-basis: 580px;
 }
 
 .header__background_image {
@@ -62,7 +63,7 @@
   font-size: 60px;
   line-height: 72px;
   margin-top: 202px;
-  margin-bottom: 28px;
+  margin-bottom: 0px;
   position: relative;
   left: 80px;
   z-index: 2;
@@ -75,11 +76,16 @@
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 32px;
+  margin-top: 28px;
   margin-bottom: 0;
   position: relative;
   left: 80px;
   z-index: 2;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header__span-accent {
@@ -89,6 +95,8 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header__image {
@@ -124,18 +132,7 @@
   color: #838383;
 }
 
-.content__background_image {
-  /* background-image: url(../images/background_recipes.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #0a2750; */
-}
-
 .content {
-  /* height: 100vh;
-  min-height: 720px;
-  max-height: 800px; */
   color: #ffffff;
   position: relative;
   box-sizing: border-box;
@@ -154,6 +151,7 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
+  flex-basis: 580px;
   box-sizing: border-box;
   /* position: relative; */
 }
@@ -197,7 +195,6 @@
 }
 
 .recipes__video-caption {
-  border: solid red;
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
