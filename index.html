@@ -29,7 +29,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header background_image">
+      <header class="header header__background_image">
         <nav class="nav">
           <div>
             <img
@@ -47,10 +47,10 @@
               <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#book-a-table" class="nav__link">Book a table</a>
+              <a href="#reservation" class="nav__link">Book a table</a>
             </li>
             <li>
-              <a href="#contacts" class="nav__link">Contacts</a>
+              <a href="#about" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -81,8 +81,8 @@
           <p>200 Success Avenue, The Town of Practicum</p>
         </div>
       </header>
-      <main class="content">
-        <section class="recipes">
+      <main class="content content__background_image">
+        <section id="recipes" class="recipes">
           <h1 class="recipes__title">Recipes</h1>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -113,15 +113,15 @@
             </div>
           </div>
           <div class="recipes__video-caption">
-            <p class="areopress">Aeropress recipe</p>
-            <p class="time-1">~5 min</p>
-            <p class="french">French press recipe</p>
-            <p class="time-2">~15 min</p>
+            <div class="areopress"><p>Aeropress recipe</p></div>
+            <div class="time-1"><p>~5 min</p></div>
+            <div class="french"><p>French press recipe</p></div>
+            <div class="time-2"><p>~15 min</p></div>
           </div>
         </section>
-        <section class="menu"></section>
-        <section class="reservation"></section>
-        <section class="about"></section>
+        <section id="menu" class="menu"></section>
+        <section id="reservation" class="reservation"></section>
+        <section id="about" class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
