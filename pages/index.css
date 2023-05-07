@@ -7,7 +7,7 @@
   line-height: 20px;
 }
 
-.header__background {
+.header {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -56,7 +56,7 @@
   color: #1f69c9;
 }
 
-.header__title {
+.title {
   max-width: 729px;
   font-style: normal;
   font-weight: 500;
@@ -69,7 +69,7 @@
   z-index: 2;
 }
 
-.header__description {
+.description {
   font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
@@ -88,7 +88,7 @@ p {
   margin-bottom: 0px;
 }
 
-.header__span-accent {
+.span-accent {
   display: block;
   font-family: "Noto Serif", Times New Roman, serif;
   font-style: italic;
@@ -100,7 +100,7 @@ p {
   margin-bottom: 0px;
 }
 
-.header__image {
+.image {
   position: absolute;
   top: 124px;
   right: 5px;
@@ -109,7 +109,7 @@ p {
   z-index: 1;
 }
 
-.header__footer {
+.footer {
   position: absolute;
   left: 80px;
   bottom: 40px;
@@ -118,13 +118,13 @@ p {
   color: #838383;
 }
 
-.header__paragraph {
+.footer__paragraph {
   display: flex;
   flex-direction: column;
   gap: 0px;
 }
 
-.header__address {
+.address {
   position: absolute;
   right: 80px;
   bottom: 40px;
