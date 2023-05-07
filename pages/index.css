@@ -7,7 +7,7 @@
   line-height: 20px;
 }
 
-.header {
+.header__background {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -124,7 +124,7 @@ p {
   gap: 0px;
 }
 
-.header_address {
+.header__address {
   position: absolute;
   right: 80px;
   bottom: 40px;
