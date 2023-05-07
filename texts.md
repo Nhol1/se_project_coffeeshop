@@ -1,3 +1,11 @@
+**Project Name**
+
+Project-2 Stage-2 Coffee Shop
+
+**Project Description**
+
+A coffee shop where customer can enteract and order their coffee through the website developed and design with HtML and CSS.
+
 # Header
 
 **Nav links**
@@ -46,10 +54,10 @@ Book a table
 
 **Form labels**
 
-Name *
-Number of guests *
-Date & time *
-Your email *
+Name _
+Number of guests _
+Date & time _
+Your email _
 
 Book a table
 
@@ -68,7 +76,6 @@ email@email.com
 **Title and description**
 
 Menu
-
 
 We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.
 

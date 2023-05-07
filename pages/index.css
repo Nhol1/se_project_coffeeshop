@@ -195,6 +195,10 @@ p {
   gap: 40px;
 }
 
+.shreksophone {
+  border: none;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
