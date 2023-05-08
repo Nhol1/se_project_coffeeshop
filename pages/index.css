@@ -133,26 +133,20 @@ p {
   color: #838383;
 }
 
-.content {
-  color: #ffffff;
-  position: relative;
-  box-sizing: border-box;
-}
-
 .recipes {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 100px 0 120px 80px;
+  color: #ffffff;
   background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #0a2750;
+  position: relative;
   display: flex;
   align-items: start;
   justify-content: space-between;
-  flex-basis: 580px;
   box-sizing: border-box;
 }
 
@@ -186,16 +180,18 @@ p {
 .recipes__videos {
   position: absolute;
   left: 300px;
-  bottom: 215px;
+  bottom: 159px;
   display: flex;
   flex-direction: row;
   align-content: center;
+
   gap: 40px;
 }
 
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
 .shreksophone {
