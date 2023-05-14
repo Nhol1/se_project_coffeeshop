@@ -216,7 +216,7 @@ p {
   align-items: center;
 }
 
-.main-position {
+.form {
   position: absolute;
   top: 200px;
   margin: 60px auto 0;
@@ -235,18 +235,18 @@ p {
   top: 100px;
 }
 
-.reservation__fieldset {
+.form__fieldset {
   margin-bottom: 32px;
   border: none;
 }
 
-.reservation__input {
+.form__input {
   min-width: 385px;
   min-height: 60px;
   border-radius: 4px;
 }
 
-.reservation__input::placeholder {
+.form__input::placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -254,7 +254,7 @@ p {
   line-height: 300px;
 }
 
-.reservation__label {
+.form__label {
   display: block;
   font-family: "Inter";
   font-style: normal;
@@ -264,7 +264,7 @@ p {
   margin-bottom: 8px;
 }
 
-.reservation__button {
+.form__button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -275,11 +275,11 @@ p {
   border-radius: 4px;
   background-color: #2f80ed;
 }
-.reservation__button_opacity:hover {
+.form__button_opacity:hover {
   opacity: 0.5;
 }
 
-.reservation__fieldset_checkbox {
+.form__fieldset_checkbox {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -287,12 +287,12 @@ p {
   gap: 12px;
 }
 
-.reservation__input[type="checkbox"] {
+.form__input[type="checkbox"] {
   border-radius: 2px;
   min-width: 20px;
   min-height: 20px;
 }
 
-.reservation__label[for="i-agree"] {
+.form__label[for="i-agree"] {
   margin-bottom: 0px;
 }
