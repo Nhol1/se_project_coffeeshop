@@ -1,0 +1,68 @@
+.form {
+  position: absolute;
+  top: 200px;
+  margin: 60px auto 0;
+  max-width: 700px;
+}
+
+.form__fieldset {
+  margin-bottom: 32px;
+  border: none;
+}
+
+.form__label {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  min-width: 385px;
+  min-height: 60px;
+  border-radius: 4px;
+}
+
+.form__input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 300px;
+}
+
+.form__button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 385px;
+  min-height: 60px;
+  border-radius: 4px;
+  background-color: #2f80ed;
+}
+.form__button_opacity:hover {
+  opacity: 0.5;
+}
+
+.form__fieldset_checkbox {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  vertical-align: middle;
+  gap: 12px;
+}
+
+.form__input[type="checkbox"] {
+  border-radius: 2px;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.form__label[for="i-agree"] {
+  margin-bottom: 0px;
+}
