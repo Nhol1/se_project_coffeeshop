@@ -1,23 +1,4 @@
 .footer {
-  position: absolute;
-  left: 80px;
-  bottom: 40px;
-  font-style: normal;
-  font-weight: 500;
-  color: #838383;
-}
-
-.footer__paragraph {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-}
-
-.address {
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
-  font-style: normal;
-  font-weight: 500;
-  color: #838383;
+  height: 30vh;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }

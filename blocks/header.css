@@ -70,3 +70,27 @@ p {
   height: 568px;
   z-index: 1;
 }
+
+.header__footer {
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+  font-style: normal;
+  font-weight: 500;
+  color: #838383;
+}
+
+.footer__paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.address {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+  font-style: normal;
+  font-weight: 500;
+  color: #838383;
+}
