@@ -1,0 +1,19 @@
+/* logo for header section */
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+/* from the header  section */
+.span-accent {
+  display: block;
+  font-family: "Noto Serif", Times New Roman, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

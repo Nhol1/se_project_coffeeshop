@@ -1,3 +1,13 @@
+/* from the header section */
+.address {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+  font-style: normal;
+  font-weight: 500;
+  color: #838383;
+}
+
 .footer {
   height: 30vh;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);

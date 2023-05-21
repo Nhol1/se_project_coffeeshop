@@ -12,12 +12,6 @@
   flex-basis: 580px;
 }
 
-.logo {
-  position: absolute;
-  left: 30px;
-  top: 30px;
-}
-
 .header__title {
   max-width: 729px;
   font-style: normal;
@@ -50,18 +44,6 @@ p {
   margin-bottom: 0px;
 }
 
-.span-accent {
-  display: block;
-  font-family: "Noto Serif", Times New Roman, serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #2f80ed;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 .header__image {
   position: absolute;
   top: 124px;
@@ -84,13 +66,4 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0px;
-}
-
-.address {
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
-  font-style: normal;
-  font-weight: 500;
-  color: #838383;
 }
