@@ -80,7 +80,7 @@ p {
   color: #838383;
 }
 
-.footer__paragraph {
+.header__paragraph {
   display: flex;
   flex-direction: column;
   gap: 0px;
