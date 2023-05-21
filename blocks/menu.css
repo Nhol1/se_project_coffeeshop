@@ -9,12 +9,12 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   position: relative;
 }
 
 .menu__title {
   min-width: 780px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -44,9 +44,8 @@
 .menu__cards {
   height: 500px;
   /* width: 1180px; */
-  justify-content: space-evenly;
+  justify-content: center;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-self: center;
   gap: 100px;
@@ -57,6 +56,19 @@
 
 .card {
   width: 540px;
+}
+
+.card__container-1 {
+  order: 1;
+}
+
+.card__container-2 {
+  order: 2;
+}
+
+.card__container-3 {
+  align-self: flex-end;
+  order: 3;
 }
 
 .cards__title {
@@ -72,8 +84,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  flex-grow: 1;
-  flex-shrink: 1;
+  /* flex-grow: 1;
+  flex-shrink: 1; */
 }
 
 .card__list-item {
@@ -83,8 +95,8 @@
   font-size: 16px;
   line-height: 20px;
   display: flex;
+  flex-basis: 300px;
   justify-content: space-between;
-
   margin-bottom: 16px;
 }
 
