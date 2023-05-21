@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Plan on adding more design features such as background colors, control multimedia, animated images using javascript.
