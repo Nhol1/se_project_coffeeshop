@@ -1,10 +1,12 @@
 .about {
-  height: 484px;
+  height: 400px;
+  box-sizing: border-box;
+  min-height: 224px;
   background-color: #0a2850;
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 80px;
   position: relative;
   overflow: hidden;
@@ -18,12 +20,9 @@
   line-height: 52px;
   max-width: 251px;
   height: 110px;
-
   z-index: 1;
-  position: absolute;
-  top: 100px;
-  left: 80px;
-  margin-top: 0;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 
 .about__content {
@@ -37,9 +36,8 @@
   max-height: 220px;
   flex-wrap: wrap;
   align-items: center;
-  position: absolute;
-  top: 119px;
-  right: 80px;
+  margin-top: 119px;
+  margin-right: 80px;
 }
 
 .about__paragraph {
@@ -69,7 +67,7 @@
   background: #2f80ed;
 }
 
-.about__circle_animation_blurred {
+.animation_blurred {
   box-sizing: border-box;
   background: #2f80ed;
   border-radius: 50%;

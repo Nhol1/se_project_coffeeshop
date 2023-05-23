@@ -81,9 +81,7 @@ p {
 }
 
 .header__address {
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
+  margin: 250px 0 0 1180px;
   font-style: normal;
   font-weight: 500;
   color: #838383;
