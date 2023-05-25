@@ -32,3 +32,14 @@
   flex-wrap: wrap;
   margin-top: 0;
 }
+
+.menu__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-self: center;
+  gap: 100px;
+  margin: 100px;
+}
