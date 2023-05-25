@@ -1,7 +1,4 @@
 .recipes {
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
   color: #ffffff;
   background-image: url(../images/background_recipes.svg);
   background-color: #0a2750;
@@ -13,6 +10,7 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
+  /* flex-wrap: wrap; */
   box-sizing: border-box;
 }
 
@@ -43,8 +41,7 @@
 .recipes__videos {
   margin-bottom: 215px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-self: center;
   gap: 40px;
 }
