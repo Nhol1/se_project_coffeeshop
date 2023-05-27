@@ -56,7 +56,7 @@
   transition: opacity 1s linear 0s;
 }
 
-.text-alignment {
+.form__label_text-alignment {
   display: flex;
   justify-content: center;
   align-self: center;
