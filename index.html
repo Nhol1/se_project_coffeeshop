@@ -16,12 +16,12 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    /> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
@@ -31,14 +31,11 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <div>
-            <img
-              src="./images/logo_coffee_shop.svg"
-              alt="coffee logo"
-              class="logo"
-            />
-          </div>
-
+          <img
+            src="./images/logo_coffee_shop.svg"
+            alt="coffee logo"
+            class="logo"
+          />
           <ul class="nav__links">
             <li>
               <a href="#menu" class="nav__link">Menu</a>
@@ -72,11 +69,9 @@
 
         <div class="header__footer">
           <div class="header__hours">
-            <div class="header__paragraph">Hours:</div>
-            <div class="header__paragraph">Monday - Friday (10:00 - 19:00)</div>
-            <div class="header__paragraph">
-              Saturday - Sunday (11:00 - 18:00)
-            </div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
           <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
@@ -90,8 +85,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 class="recipes__iframe"
                 width="480"
@@ -105,8 +100,8 @@
                 <span>Aeropress recipe</span>
                 <span>~5 min</span>
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 class="recipes__iframe"
                 width="480"
@@ -120,8 +115,8 @@
                 <span>French press recipe</span>
                 <span>~15 min</span>
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <section id="reservation" class="reservation">
@@ -135,9 +130,8 @@
                 id="surename"
                 name="surename"
                 placeholder="Name surename"
+                required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label for="guest" class="form__label">Number of guests</label>
               <input
                 type="number"
@@ -147,18 +141,16 @@
                 id="guest"
                 name="guest"
                 placeholder="1-8"
+                required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label for="date-time" class="form__label">Date & Time</label>
               <input
                 type="datetime-local"
                 class="form__input"
                 id="date-time"
                 name="date-time"
+                required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label for="email" class="form__label">Your email</label>
               <input
                 type="email"
@@ -166,34 +158,36 @@
                 id="email"
                 name="email"
                 placeholder="email@mail.com"
+                required
               />
             </fieldset>
+
             <fieldset class="form__fieldset">
-              <button type="submit" class="form__button form__button_opacity">
+              <button type="submit" class="form__button" required>
                 Book a table
               </button>
             </fieldset>
-            <fieldset class="form__fieldset form__fieldset_checkbox">
-              <input
-                type="checkbox"
-                class="form__input form__input-checkox"
-                id="i-agree"
-                name="i-agree"
-              />
-              <label for="i-agree" class="form__labell"
-                >I agree with the terms of use</label
+            <fieldset class="form__fieldset">
+              <label for="i-agree" class="form__label text-alignment">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="i-agree"
+                  name="i-agree"
+                  required
+                />I agree with the terms of use</label
               >
             </fieldset>
           </form>
         </section>
         <section id="menu" class="menu">
           <h2 class="menu__title">Menu</h2>
-          <h3 class="menu__subtitle">
+          <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
-          </h3>
+          </p>
           <div class="menu__cards">
-            <div class="card card_container-1">
+            <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -215,7 +209,7 @@
                 </li>
               </ul>
             </div>
-            <div class="card card_container-2">
+            <div class="card">
               <h3 class="card__title">Expresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -233,7 +227,7 @@
                 </li>
               </ul>
             </div>
-            <div class="card card_container-3">
+            <div class="card">
               <h3 class="card__title">Bake Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
@@ -274,7 +268,8 @@
               cups!
             </p>
           </div>
-          <div class="about__circle about__circle_animation_blurred"></div>
+          <div class="about__circle"></div>
+          <div class="about__circle animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">
@@ -286,7 +281,7 @@
           />
           <h3 class="footer__social-heading">Social media</h3>
           <ul class="footer__list">
-            <li class="footer__list-item footer__list-item_1">
+            <li class="footer__list-item">
               <a href="https://facebook.com" class="footer__social-link"
                 ><img
                   src="./images/facebook_white.svg"

@@ -10,6 +10,7 @@
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 80px 0 80px;
 }
 
 .header__title {
@@ -21,13 +22,12 @@
   margin-top: 202px;
   margin-bottom: 0px;
   position: relative;
-  padding-left: 80px;
   z-index: 2;
 }
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", Times "New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -47,13 +47,7 @@
   margin-top: 28px;
   margin-bottom: 0;
   position: relative;
-  padding-left: 80px;
   z-index: 2;
-}
-
-p {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .header__image {
@@ -63,6 +57,8 @@ p {
   width: 646px;
   height: 568px;
   z-index: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .header__footer {
@@ -75,7 +71,6 @@ p {
   align-items: flex-end;
   box-sizing: border-box;
   margin-top: 200px;
-  padding: 0 80px;
 }
 
 .header__paragraph {
