@@ -1,7 +1,6 @@
 .footer {
   box-sizing: border-box;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  /* min-height: 224px; */
 }
 
 .footer__content {
@@ -16,11 +15,6 @@
   height: 21px;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__social-heading {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -29,6 +23,7 @@
   line-height: 20px;
   color: #ffffff;
   align-self: flex-end;
+  padding-left: 60px;
   margin: 0 0;
 }
 
