@@ -7,10 +7,12 @@
   background-position: center;
   background-size: cover;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0 80px 0 80px;
+  padding: 0 80px 40px 80px;
 }
 
 .header__title {
@@ -27,7 +29,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", Times "New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -38,7 +40,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   max-width: 683px;
@@ -65,16 +67,17 @@
   font-style: normal;
   font-weight: 500;
   color: #838383;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  flex-grow: 1;
   box-sizing: border-box;
-  margin-top: 200px;
+  margin-bottom: 0 80px 0 80px;
 }
 
 .header__paragraph {
   display: flex;
   flex-direction: column;
   gap: 0px;
+  margin-bottom: 0;
 }

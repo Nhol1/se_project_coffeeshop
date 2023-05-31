@@ -1,7 +1,4 @@
 .page {
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
   min-width: 1100px;
   margin: 0 0;
   box-sizing: border-box;
