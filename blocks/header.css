@@ -72,9 +72,8 @@
   align-items: flex-end;
   flex-grow: 1;
   box-sizing: border-box;
-  margin-bottom: 0 80px 0 80px;
 }
 
 .header__paragraph {
-  margin-bottom: 0 auto;
+  margin-bottom: 0;
 }

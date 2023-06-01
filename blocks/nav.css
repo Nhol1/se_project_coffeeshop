@@ -19,6 +19,6 @@
 }
 
 .nav__link:hover {
-  color: #2f80ed;
+  color: #000;
   transition: color 1s linear 0s;
 }
