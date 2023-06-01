@@ -3,7 +3,6 @@
   background-color: #0a2850;
   color: #fff;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 80px;
   position: relative;
