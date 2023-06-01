@@ -77,3 +77,7 @@
 .header__paragraph {
   margin-bottom: 0;
 }
+
+.header__paragraph:nth-last-of-type() {
+  margin-top: 0;
+}
